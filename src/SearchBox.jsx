@@ -20,7 +20,7 @@
         tempMin:jsonResponse.main.temp_min,
         tempMax:jsonResponse.main.temp_max,
         humidity:jsonResponse.main.humidity,
-        feels_Like:jsonResponse.main.feels_like,
+        feels_Like:jsonResponse.main.feelsLike,
         weather:jsonResponse.weather[0].description,
       };
       console.log(result);
