@@ -43,7 +43,7 @@ import WbSunnyIcon from '@mui/icons-material/WbSunny';
             <div>Humidity={info.humidity}</div>
             <div>Min Temp={info.tempMin}&deg;C</div>
             <div>Max Temp={info.tempMax}&deg;C</div>
-            <div>The weather can be described as <i>{info.weather}</i> and feels like ={info.feelsLike}&deg;C</div>
+            <div>The weather can be described as <i>{info.weather}</i> and feels like {info.feelsLike}&deg;C</div>
         </Typography>
       </CardContent>
       
