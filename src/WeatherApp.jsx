@@ -19,7 +19,7 @@ export default function WeatherApp(){
     return(
            <div style={{textAlign:"center"}}>
             <h2  style={{ color: "black", opacity: 1 }}>Wather App by delta</h2>
-            <SearchBox updatInfo={updateInfo}/>
+            <SearchBox updateInfo={updateInfo}/>
             <InfoBox info={weatherInfo}/>
            </div>
     )
